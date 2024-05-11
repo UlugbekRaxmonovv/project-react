@@ -1,0 +1,206 @@
+.Swiper{
+    background: #001A57;
+}
+.swiperr{
+    height: 130px;
+}
+
+
+.mySwiper-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 140px;
+}
+.wik{
+    width: 80px;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-90deg);  
+}
+.mySwiper-row >h1{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.79px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.mySwiper-row >p{
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #BCBCBC;
+
+
+    
+}
+
+.mySwiper-row >h2{
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.69px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 975px;
+    width: 100%;
+height: 33px
+}
+.mySwiper-row >h5{
+    font-family: Noto Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.79px;
+text-align: left;
+color: #BCBCBC;
+max-width: 975px;
+    width: 100%;
+height: 33px
+}
+.wiper-all .swiper-button-next::after{
+    color: white;
+}
+
+.wiper-all .swiper-button-prev::after{
+    color: white;
+}
+span.swiper-pagination-progressbar-fill{
+    background: #001A57 !important;
+
+} 
+
+@media(max-width:990px){
+   .mySwiper-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+     gap: 20px;
+     flex-wrap: wrap;
+} 
+.swiperr{
+    height: 150px;
+}
+}
+@media(max-width:900px){
+    .mySwiper-row >h2{
+        font-family: Noto Sans;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 25.6px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 800px;
+        width: 100%;
+    height: 33px
+    }
+    .mySwiper-row >h5{
+        font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.9px;
+   text-align: center;
+    color: #BCBCBC;
+    max-width: 800px;
+    width: 100%;
+     height: 33px;
+     margin-top: 30px;
+    }
+    .swiperr{
+        height: 180px;
+    }
+}
+@media(max-width:700px){
+    .mySwiper-row >h2{
+        font-family: Noto Sans;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 25.6px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 700px;
+        width: 100%;
+    height: 33px
+    }
+    .mySwiper-row >h5{
+        font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.9px;
+   text-align: center;
+    color: #BCBCBC;
+    max-width: 650px;
+    width: 100%;
+     height: 33px;
+     margin-top: 30px;
+    }
+    .swiperr{
+        height: 180px;
+    }
+}
+
+@media(max-width:500px){
+    .Swiper{
+        background: #001A57;
+        margin-top: 200px;
+    }
+    .mySwiper-row >h2{
+        font-family: Noto Sans;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 25.6px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 700px;
+        width: 100%;
+    height: 33px
+    }
+    .mySwiper-row >h5{
+        font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.9px;
+   text-align: center;
+    color: #BCBCBC;
+    max-width: 650px;
+    width: 100%;
+     height: 33px;
+     margin-top: 50px;
+    }
+    .swiperr{
+        height: 250px;
+    }
+    .mySwiper-all{
+        gap: 40px;
+    }
+}
+@media(max-width:400px){
+    .mySwiper-row >h5{
+        font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.9px;
+   text-align: center;
+    color: #BCBCBC;
+    max-width: 400px;
+    width: 100%;
+     height: 33px;
+     margin-top: 70px;
+    }
+    .mySwiper-row >h2{
+        font-family: Noto Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25.6px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 400px;
+        width: 100%;
+    height: 33px
+    }
+}
