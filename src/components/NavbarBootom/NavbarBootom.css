@@ -1,0 +1,11 @@
+.about-top{
+    background: #5D84CB1A;
+    padding: 20px 0;
+}
+.about_top_link{
+    display: flex;
+    align-items: center;
+}
+.about_top_link a{
+    text-decoration: none;
+}

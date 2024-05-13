@@ -26,7 +26,12 @@
     text-align: left;
     color: #2E6DFF;  
     border-bottom: 1px solid #2E6DFF;
+    text-decoration: none;
 }
+.Cart_all li{
+    list-style: none;
+}
+
 .column{
     display: flex;
     align-items: flex-start;

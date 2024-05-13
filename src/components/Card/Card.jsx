@@ -26,11 +26,11 @@ const Card = () => {
         <div className="column_link">
         <div className="column-row">
             <div className="column-alt">
-               <span>Yangilik 07.19.2023</span>
-               <h1>Lorem ipsum dolor sit amet consectetur. Quis at velit malesuada in.</h1>
+                <img src={rasm1} alt="" />
             </div>
             <div className="column-alt">
-                <img src={rasm1} alt="" />
+               <span>Yangilik 07.19.2023</span>
+               <h1>Lorem ipsum dolor sit amet consectetur. Quis at velit malesuada in.</h1>
             </div>
 
         </div>

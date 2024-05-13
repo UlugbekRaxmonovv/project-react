@@ -83,7 +83,12 @@ li .link{
     line-height: 22px;
     text-align: left;
     color: #D9D9D9;
+    list-style: none;
+    text-decoration: none;
     /* line-height: 32px;  */
+ }
+ .footer_row li{
+    list-style: none;
  }
  .footer_row ul li {
     margin-top: 20px;

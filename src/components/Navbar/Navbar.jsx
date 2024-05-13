@@ -53,12 +53,83 @@ const Navbar = () => {
                 </div>
               
                     <ul className={`link ${show ? "show" : ""}`} >
-                      <li> <Link to={'/'}>Institut</Link></li>
-                     <li>  <Link to={'/shnq'}>SHNQ</Link></li>
-                       <li><Link to={'/standartlar'}>Standartlar</Link></li>
-                       <li> <Link to={'/tizimlar'}>Tizimlar</Link></li>
-                       <li> <Link to={'/tizimlar'}>Xabarlar</Link></li>
-                       <li> <Link to={'/tizimlar'}>Bog‘lanish</Link></li>
+                      <li className='li_ul'> <Link to={'/'}>Institut</Link>
+                    <div className="link_alll">
+                     <div className="link-row">
+                        <Link to={'/about'}>INSTITUT HAQIDA</Link>
+                        </div>
+                        <div className="link-row">
+                           <Link to={'/management'}>RAHBARIYAT</Link>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">TASHKILIY TUZULMA</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">TARKIBIY BO'LINMALAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">VAKANSIYALAR</a>
+                        </div>
+                     </div>
+                    </li>
+                     <li className='ul_Link'>   <Link to={'/shnq'}>SHNQ</Link>
+                     <div className="link_alll">
+                     <div className="link-row">
+                        <a href="" className="">QONUN,QAROR VA 
+                        FARMONLAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" style={{maxWidth:'50px',width:'100%'}} className="">SHAHARSOZLIK NORMALARI VA QOIDALARI</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">TASHKILIY TUZULMA</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">TARKIBIY BO'LINMALAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">VAKANSIYALAR</a>
+                        </div>
+                     </div>
+                     </li>
+                 
+                       <li className='nav_link'><Link to={'/standartlar'}>Standartlar</Link>
+                       <div className="link_alll">
+                     <div className="link-row">
+                        <a href="" className="">KLASSIFIKATOR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" style={{maxWidth:'50px',width:'100%'}} className="">ELEKTRON FOND</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">LABARATORIYA</a>
+                        </div>
+                     </div>
+                       </li>
+                       <li className='link_ul'> <Link to={'/tizimlar'}>Tizimlar</Link>
+                       <div className="link_alll">
+                     <div className="link-row">
+                        <a href="" className="">E'LONLAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" style={{maxWidth:'50px',width:'100%'}} className="">ELEKTRON FOND</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">UCHRASHUVLAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">OMAVIY TADBIRLAR</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">XALQARO HAMKORLIK</a>
+                        </div>
+                        <div className="link-row">
+                        <a href="" className="">SEVIMLAR KO'RGAZMALAR</a>
+                        </div>
+                     </div>
+                       </li>
+                       <li > <Link to={'/tizimlar'}>Xabarlar</Link></li>
+                       <li> <Link to={'/contact'}>Bog‘lanish</Link></li>
                     </ul>
                     <VscMenu  className='menu'  onClick={() => setShow(!show)}/>
 
