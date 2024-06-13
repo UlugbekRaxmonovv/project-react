@@ -22,7 +22,7 @@ const Card = () => {
         <img className='image' src={rasm1} alt="" />
         <h3>Yangilik 07.19.2023</h3>
         <h1>Lorem ipsum dolor sit amet consectetur. Nec nibh pellentesque odio ornare quis quam rutrum eros id. </h1>
-        <p>Lorem ipsum dolor sit amet consectetur. Consequat sagittis amet vitae porta urna. Pretium lobortis scelerisque congue sit sodales a vitae ultricies.</p>
+        <p>Lorem ipsum dolor sit amet consectetur. </p>
         <div className="column_link">
         <div className="column-row">
             <div className="column-alt">

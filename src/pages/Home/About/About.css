@@ -1,6 +1,6 @@
 .about-top{
     background: #5D84CB1A;
-    padding: 20px 0;
+    padding: 80px 0;
 }
 .about_top_link{
     display: flex;
@@ -24,13 +24,14 @@
 .about_nav{
     display: flex;
   justify-content: center;
-  gap: 240px;
+  gap: 20px;
     align-items: self-start;
     flex-wrap: wrap;
+    /* padding: 40px 0; */
     
 }
 .about_links >p{
-    max-width: 1110px;
+    max-width: 810px;
     width: 100%;
     height: 210px;
     font-family: Noto Sans;
@@ -57,7 +58,7 @@
 
 }
 .about_links >h6{
-    max-width: 1110px;
+    max-width: 810px;
     font-family: Noto Sans;
 font-size: 18px;
 font-weight: 400;
@@ -67,7 +68,7 @@ color: #14255B;
 
 }   
 .tablisa{
-    max-width: 1110px;
+    max-width: 810px;
     width: 100%;
     height: 603px;  
 }
@@ -87,9 +88,9 @@ color: #14255B;
     color: #1A4DC2;
 }
 .about_links >img{
-    max-width: 570px;
-    width: 100%;
-    height: 814px;
+   width: 470px;
+    height: 800px;
+    object-fit: contain;
     
 }
 

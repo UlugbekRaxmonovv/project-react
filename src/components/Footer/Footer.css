@@ -8,7 +8,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: self-start;
-    gap: 160px;
+    gap: 45px;
     padding: 40px 2px;
     flex-wrap: wrap;
 }

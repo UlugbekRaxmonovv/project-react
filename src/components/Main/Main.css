@@ -4,10 +4,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 280px;
+    gap: 80px;
 }
 .main-all >h1{
-    max-width: 690px;
+    max-width: 590px;
     width: 100%;
     height: 261px;
     top: 198px;
@@ -15,7 +15,7 @@
     gap: 0px;
     opacity: 0px;
     font-family: Noto Sans;
-font-size: 64px;
+font-size: 54px;
 font-weight: 700;
 line-height: 87.17px;
 text-align: left;
@@ -71,15 +71,15 @@ color: #5D84CB;
 .main-all >img{
     max-width: 945px;
     width: 100%;
-    height: 734px;    
+    height: 504px;    
 }
 .swipir{
-    max-width: 945px;
+    max-width: 545px;
     width: 100%;
-    height: 734px;
+    height: 534px;
 }
 .img >img{
-    height: 734px;
+    height: 504px;
 }
 .swipir .swiper-button-next::after{
     display: none;

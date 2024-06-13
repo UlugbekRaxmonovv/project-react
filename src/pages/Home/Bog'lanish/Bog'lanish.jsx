@@ -85,12 +85,14 @@ const BogLanish = () => {
 
                       <div className="boglainish_input-alt">
                       <div className="input_boglansih_row">
-                            <input type="text" placeholder="Murojaat turi" />
-                           
-                        </div>
-                        <select name="" id="">
-                                <option value=""></option>
+                      <select name="" id="">
+                      <option value="">Toshkent</option>
+                      <option value="">Toshkent</option>
+                      <option value="">Toshkent</option>
+                      <option value="">Toshkent</option>
                             </select>
+                        </div>
+                        
                       </div>
                     </div>
                     <textarea className='textarea' name="" id="" cols="30" rows="10" defaultValue={'Murojaat matni'} ></textarea> <br />

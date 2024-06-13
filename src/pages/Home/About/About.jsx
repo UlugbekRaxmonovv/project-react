@@ -31,7 +31,6 @@ const About = () => {
                              sohaga oid texnik jihatidan tartibga solishga doir milliy normativ hujjatlar, shuningdek, qurilish sohasidagi xorijiy standartlar, normalar va qoidalarning yagona reestri, elektron bazasi va fondini shakllantirish</li>
                              <li> tahlil qilish hamda bugungi kunda amalga oshirilayotgan islohotlar hamda xalqaro norma va standartlar bilan uyg‘unlashtirish;</li>
                           <li>vazirliklar va idoralar tomonidan yangi ishlab chiqilgan yoki takomillashtirilgan shaharsozlik hujjatlari loyihalariga amaldagi texnik jihatdan tartibga solish sohasidagi me’yoriy hujjatlarga muvofiqligi yuzasidan xulosalar berish tizimini raqamlashtirish;</li>
-                          <li>qurilishda BIM texnologiyalarini joriy etishda implementator (joriy etuvchi) funksiyasini bajarish, Institutda tashkil etilayotgan BIM-server va axborotlarni qayta ishlash markazi faoliyatini yo‘lga qo‘yish, shuningdek, axborot modellarining markazlashgan bankini shakllantirirish;</li>
                             </div>
                         </ul>
                     </div>

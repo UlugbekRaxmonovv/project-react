@@ -65,10 +65,10 @@ const Navbar = () => {
                         <a href="" className="">TASHKILIY TUZULMA</a>
                         </div>
                         <div className="link-row">
-                        <a href="" className="">TARKIBIY BO'LINMALAR</a>
+                           <Link to={'/structural-divisions'}>TARKIBIY BO'LINMALAR</Link>
                         </div>
                         <div className="link-row">
-                        <a href="" className="">VAKANSIYALAR</a>
+                           <Link to={'/vacancies'}>VAKANSIYALAR</Link>
                         </div>
                      </div>
                     </li>
@@ -79,7 +79,7 @@ const Navbar = () => {
                         FARMONLAR</a>
                         </div>
                         <div className="link-row">
-                        <a href="" style={{maxWidth:'50px',width:'100%'}} className="">SHAHARSOZLIK NORMALARI VA QOIDALARI</a>
+                        <Link to={'/shnk'}  style={{maxWidth:'50px',width:'100%'}}>SHAHARSOZLIK NORMALARI VA QOIDALARI</Link>
                         </div>
                         <div className="link-row">
                         <a href="" className="">TASHKILIY TUZULMA</a>
